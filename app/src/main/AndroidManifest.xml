@@ -15,6 +15,20 @@
         android:theme="@style/Theme.QRFinal"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivityBuyer"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivityChoice"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".MainActivitySeller"
             android:exported="false">
             <meta-data
